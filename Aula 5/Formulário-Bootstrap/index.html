@@ -1,0 +1,97 @@
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<div class="container">
+    <div class=" text-center mt-5 ">
+
+        <h1 >Formulário de contato bootstrap</h1>
+            
+        
+    </div>
+
+
+<div class="row ">
+  <div class="col-lg-7 mx-auto">
+    <div class="card mt-2 mx-auto p-4 bg-light">
+        <div class="card-body bg-light">
+   
+        <div class = "container">
+                         <form id="contact-form" role="form">
+
+        
+
+        <div class="controls">
+
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="form_name">Nome *</label>
+                        <input id="form_name" type="text" name="name" class="form-control" placeholder="Por favor insira seu nome *" required="required" data-error="Firstname is required.">
+                        
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="form_lastname">Sobrenome *</label>
+                        <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Por favor insira seu sobrenome *" required="required" data-error="Lastname is required.">
+                                                        </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="form_email">Email *</label>
+                        <input id="form_email" type="email" name="email" class="form-control" placeholder="Por favor digite seu email *" required="required" data-error="Valid email is required.">
+                        
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="form_need">Por favor especifique seu problema *</label>
+                        <select id="form_need" name="need" class="form-control" required="required" data-error="Please specify your need.">
+                            <option value="" selected disabled>--Selecione seu problema--</option>
+                            <option >Solicitar fatura de pedido</option>
+                            <option >Status de solicitação de pedido</option>
+                            <option >Não recebi meu cashback ainda</option>
+                            <option >Outro</option>
+                        </select>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label for="form_message">Mensagem *</label>
+                        <textarea id="form_message" name="message" class="form-control" placeholder="Digite sua mensagem aqui." rows="4" required="required" data-error="Please, leave us a message."></textarea
+                            >
+                        </div>
+
+                    </div>
+
+
+                <div class="col-md-12">
+                    
+                    <input type="submit" class="btn btn-success btn-send  pt-2 btn-block
+                        " value="Enviar mensagem" >
+                
+            </div>
+      
+            </div>
+
+
+    </div>
+     </form>
+    </div>
+        </div>
+
+
+</div>
+    <!-- /.8 -->
+
+</div>
+<!-- /.row-->
+
+</div>
+</div>
